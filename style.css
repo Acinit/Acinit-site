@@ -24,7 +24,7 @@ header,footer,article, div {
 }
 .page_header {
     grid-area:header;
-    background: #222325;
+    background: #212327;
     color: #A0A2A5;
     padding: 0px;
     padding-left: 50px;
@@ -39,7 +39,7 @@ header,footer,article, div {
 }
 .page_footer {
     grid-area:footer;
-    background: #222325;
+    background: #212327;
     color: #A0A2A5;
     padding: 0px;
     text-align: center;
@@ -51,7 +51,7 @@ header,footer,article, div {
 }
 .page_article {
     grid-area: article;
-    background: #222325;
+    background: #212327;
     color: #A0A2A5;
     padding: 5px;
 }
@@ -66,7 +66,7 @@ header,footer,article, div {
     text-align: justify;
     /* background-image: url(res/Acinit.jpg);
     background-repeat: no-repeat; */
-    background-color: #222325;
+    background-color: #212327;
     /* background-size: 500px;
     background-position: center; */
     white-space: pre;
@@ -79,7 +79,7 @@ button {
     padding: 10%;
     margin: 10px;
     /*  */
-    background-color: #222325;
+    background-color: #212327;
     color: #A0A2A5;
     border: 1px solid rgb(83, 79, 78);
     transition-duration: 0.1s;
@@ -91,15 +91,15 @@ button {
 }
 button:hover {
     background-color: #A0A2A5;
-    color: #222325;
-    border: 1px solid #222325;
+    color: #212327;
+    border: 1px solid #212327;
     /* padding: 11%;   */
 }
 button:focus {
     outline:none;
     /* padding: 12%;  */
     background-color: #A0A2A5;
-    color: #222325;
+    color: #212327;
 }
 ul {
     padding:5px;
