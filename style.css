@@ -20,55 +20,55 @@ body {
 }
 header,footer,article, div {
     padding: 20px;
-    transition: background 0.3s, color 0.3s, padding 0.3s;
+    transition: background 0.1s, color 0.1s, padding 0.1s;
 }
 .page_header {
     grid-area:header;
-    background: rgb(0, 4, 14);
-    color: #EADEDA;
+    background: #222325;
+    color: #A0A2A5;
     padding: 0px;
     padding-left: 50px;
     white-space: pre;
     font-size: 11px;
 }
 .page_header:hover {
-    background: rgb(0, 4, 216);
-    color: #EADEDA;
+    background: #051637;
+    color: #A0A2A5;
     padding: 0px;
     padding-left: 40px;
 }
 .page_footer {
     grid-area:footer;
-    background: rgb(0, 4, 14);
-    color: #EADEDA;
+    background: #222325;
+    color: #A0A2A5;
     padding: 0px;
     text-align: center;
+    
 }
 .page_footer:hover {
-    background: #EADEDA;
+    background: #A0A2A5;
     color: #1E1E24;
 }
 .page_article {
     grid-area: article;
-    background: rgb(0, 4, 14);
-    color: #EADEDA;
+    background: #222325;
+    color: #A0A2A5;
     padding: 5px;
-    
 }
 .page_article:hover {
-    background: #EADEDA;
+    background: #A0A2A5;
     color: #1E1E24; 
 }
 .page_div {
     grid-area: second;
-    color: #EADEDA;
+    color: #A0A2A5;
     Font-size: 15px;
     text-align: justify;
-    background-image: url(Acinit.jpg);
-    background-repeat: no-repeat;
-    background-color: rgb(0, 0, 0);
-    background-size: 500px;
-    background-position: center;
+    /* background-image: url(res/Acinit.jpg);
+    background-repeat: no-repeat; */
+    background-color: #222325;
+    /* background-size: 500px;
+    background-position: center; */
     white-space: pre;
 }
 button {
@@ -79,10 +79,10 @@ button {
     padding: 10%;
     margin: 10px;
     /*  */
-    background-color: rgb(0, 4, 14);
-    color: #EADEDA;
+    background-color: #222325;
+    color: #A0A2A5;
     border: 1px solid rgb(83, 79, 78);
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
     /*  */
     font-family: "Courier New", Courier, monospace;
     Font-size: 12px;
@@ -90,16 +90,16 @@ button {
     text-align: center;
 }
 button:hover {
-    background-color: #EADEDA;
-    color: rgb(0, 4, 14);
-    border: 1px solid rgb(0, 4, 14);
-    padding: 11%;  
+    background-color: #A0A2A5;
+    color: #222325;
+    border: 1px solid #222325;
+    /* padding: 11%;   */
 }
 button:focus {
     outline:none;
-    padding: 12%; 
-    background-color: #EADEDA;
-    color: rgb(0, 4, 14);
+    /* padding: 12%;  */
+    background-color: #A0A2A5;
+    color: #222325;
 }
 ul {
     padding:5px;
@@ -110,7 +110,7 @@ ul {
     margin: 0 auto;
 }
 .social-icon {
-    color: #EADEDA;
+    color: inherit;
 }
 ul.social-icons {
     margin-top: 0px;
@@ -120,46 +120,50 @@ ul.social-icons {
     display: inline;
 }
 .social-icons a {
-    color: #EADEDA;
+    color: inherit;
     text-decoration: none;
 }
 
 .fa-youtube-play {
     padding:10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: rgb(0, 4, 14);
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition: .1s;
+    background-color: inherit;
+    
 }
 .fa-youtube-play:hover {
     background-color: #e64a41;
     border-radius: 100px;
+    color: #A0A2A5;
 }
 .fa-soundcloud {
     padding:10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: rgb(0, 4, 14);
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition: .1s;
+    background-color: inherit;
 }
 .fa-soundcloud:hover {
     background-color: #f50;
     border-radius: 100px;
+    color: #A0A2A5;
 }
 .fa-vk {
     padding:10px 9px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: rgb(0, 4, 14);
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition: .1s;
+    background-color: inherit;
 }
 .fa-vk:hover {
     background-color: #375474;
     border-radius: 100px;
+    color: #A0A2A5;
 }
